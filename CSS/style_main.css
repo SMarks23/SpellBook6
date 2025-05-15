@@ -1,9 +1,6 @@
 * {
     margin: 0
 }
-a {
-  -webkit-tap-highlight-color: transparent;
-}
 body {
     background-image: linear-gradient(#000 80%, #040 95%, #070);
 }
@@ -26,6 +23,7 @@ body {
     flex-direction: column;
     place-content: space-between;
 }
+
 
 .main_title{
     color: whitesmoke;

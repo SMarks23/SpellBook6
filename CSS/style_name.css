@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Pinstripe';
+    font-weight: 400;
+    src: url('../FONT/AlumniSansPinstripe-Regular.woff2');
+}
+
+.name_cont{
+    width: 60%;
+    margin: auto;
+    
+}
+
+.name_input{
+    background-color: transparent;
+    color: #0a0;
+    border: none;
+    border-bottom: solid 3px #0a0;
+    outline: none;
+    width: 100%;
+    font-size: 5rem;
+    font-family: 'Pinstripe';
+    font-weight: bold;
+    text-align: center;
+}

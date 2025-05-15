@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Chakra Petch';
+    font-weight: 400;
+    src: url('../FONT/ChakraPetch-Regular.woff2');
+}
+
+.species_cont{
+    width: 60%;
+    height: 14.5rem;
+    position: relative;
+    margin: auto;
+}
+.species_scroll_cont{
+    height: 100%;
+    font-family: 'Chakra Petch';
+    font-size: 3.5rem;
+    text-align: center;
+    overflow: scroll;
+}
+
+.species{
+    background: #0a0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.species_extra{
+    background: #0a0;
+    height: 2rem;
+}
+
+.species_cover{
+    position: absolute;
+    top:-5%;
+    left: -5%;
+    height: 110%;
+    width: 110%;
+    background-image: linear-gradient(black, transparent, transparent, black);
+    pointer-events: none;
+}

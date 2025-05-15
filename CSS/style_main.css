@@ -1,0 +1,51 @@
+* {
+    margin: 0
+}
+
+body {
+    background-image: linear-gradient(#000 80%, #040 95%, #070);
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    src: url('../FONT/BebasNeue-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Chakra Petch';
+    font-weight: 400;
+    src: url('../FONT/ChakraPetch-Regular.woff2');
+}
+
+.main_page{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    place-content: space-between;
+}
+
+.main_title{
+    color: whitesmoke;
+    font-size: 12rem;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 2rem #0A0;
+    width: 80%;
+    margin: auto;
+}
+
+.main_cont{
+    margin: auto;
+    display: grid;
+}
+.main_cont a{
+    color: #0A0;
+    font-size: 8rem;
+    text-shadow: 0 0.2rem 0.5rem #0f0;
+    font-family: 'Chakra Petch';
+    text-align: center;
+    text-decoration: none;
+}

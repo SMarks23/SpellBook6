@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Pinstripe';
+    font-weight: 400;
+    src: url('../FONT/AlumniSansPinstripe-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    src: url('../FONT/BebasNeue-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Chakra Petch';
+    font-weight: 400;
+    src: url('../FONT/ChakraPetch-Regular.woff2');
+}
+
+.modifier_cont{
+    width: 100%;
+    display: none;
+}
+
+.modifier_name{
+    color: #0a0;
+    font-size: 7rem;
+    font-family: 'Pinstripe';
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.modifier_interface{
+    margin: auto;
+    display: flex;
+    place-content: space-between;
+}
+
+.modifier_arrow{
+    width: 30%;
+    color: #0a0;
+    font-size: 12rem;
+    font-family: 'Pinstripe';
+    display: grid;
+    place-content: center;
+}
+
+.modifier_input_cont{
+    width: 30%;
+    border: solid #0a0 5px;
+    border-bottom-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+}
+
+.modifier_mod{
+    font-size: 4rem;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    background-color: #0a0;
+    margin: auto;
+}
+
+.modifier_score{
+    background-color: transparent;
+    color: #0a0;
+    font-size: 8rem;
+    font-family: 'Chakra Petch';
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    border: none;
+    outline: none;
+    width: 100%;
+}

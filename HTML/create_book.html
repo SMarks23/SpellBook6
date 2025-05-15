@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../CSS/style_general.css">
+    <link rel="stylesheet" href="../CSS/style_modifier.css">
+    <link rel="stylesheet" href="../CSS/style_feat.css">
+    <link rel="stylesheet" href="../CSS/style_species.css">
+    <link rel="stylesheet" href="../CSS/style_name.css">
+    <script src="../JS/species.js" defer></script>
+    <script src="../JS/modifier.js" defer></script>
+    <script src="../JS/feat.js" defer></script>
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="user-scalable=no">
+</head>
+
+<body>
+    <h1 class="book_create_title">create book</h1>
+    <!--Name-->
+    <div class="book_info_cont">
+        <div class="book_info_title">Name</div>
+        <div class="name_cont">
+            <input class="name_input" placeholder="Name">
+        </div>
+    </div>
+    <!--Class-->
+    <div class="book_info_cont">
+        <span class="book_info_title">Class</span>
+    </div>
+    <!--Species-->
+    <div class="book_info_cont">
+        <div class="book_info_title">Species</div>
+        <div class="species_cont">
+            <div class="species_scroll_cont">
+                <div class="species_extra"></div>
+                <div class="species" onclick="selectSpecies(this)">Aasimar</div>
+                <div class="species" onclick="selectSpecies(this)">Elf</div>
+                <div class="species" onclick="selectSpecies(this)">Human</div>
+                <div class="species" onclick="selectSpecies(this)">Tiefling</div>
+                <div class="species" onclick="selectSpecies(this)">Other</div>
+                <div class="species_extra"></div>
+            </div>
+            <div class="species_cover"></div>
+        </div>
+    </div>
+    <!--Background-->
+    <div class="book_info_cont">
+        <div class="book_info_title">Background</div>
+        <select>
+            <option>asd</option>
+            <option>asd</option>
+            <option>asd</option>
+            <option>asd</option>
+        </select>
+    </div>
+    <!--Feat-->
+    <div class="book_info_cont">
+        <div class="book_info_title">Feats</div>
+        <span class="feat_cont">
+            <div class="feat" onclick="addFeat(this)">Fey-Touched</div>
+            <div class="feat" onclick="addFeat(this)">Magic Initiate (Cleric)</div>
+            <div class="feat" onclick="addFeat(this)">Magic Initiate (Druic)</div>
+            <div class="feat" onclick="addFeat(this)">Magic Initiate (Wizard)</div>
+            <div class="feat" onclick="addFeat(this)">Ritual Caster</div>
+            <div class="feat" onclick="addFeat(this)">Shadow-Touched</div>
+            <div class="feat" onclick="addFeat(this)">Telekinesis</div>
+            <div class="feat" onclick="addFeat(this)">Telepathic</div>
+        </span>
+    </div>
+    <!--Modifier-->
+    <div class="book_info_cont">
+        <div class="book_info_title">Modifiers</div>
+        <div class="modifier_cont">
+            <div class="modifier_name">Intelligence</div>
+            <div class="modifier_interface">
+                <div class="modifier_arrow" onclick="switchMod('-')">&lt;</div>
+                <div class="modifier_input_cont">
+                    <div class="modifier_mod"></div>
+                    <input class="modifier_score" placeholder="0" value="0" oninput="matchModToScore()">
+                </div>
+                <div class="modifier_arrow" onclick="switchMod('+')">&gt;</div>
+            </div>
+        </div>
+        <div class="modifier_cont">
+            <div class="modifier_name">Wisdom</div>
+            <div class="modifier_interface">
+                <div class="modifier_arrow" onclick="switchMod('-')">&lt;</div>
+                <div class="modifier_input_cont">
+                    <div class="modifier_mod"></div>
+                    <input class="modifier_score" placeholder="0" value="0" oninput="matchModToScore()">
+                </div>
+                <div class="modifier_arrow" onclick="switchMod('+')">&gt;</div>
+            </div>
+        </div>
+        <div class="modifier_cont">
+            <div class="modifier_name">Charisma</div>
+            <div class="modifier_interface">
+                <div class="modifier_arrow" onclick="switchMod('-')">&lt;</div>
+                <div class="modifier_input_cont">
+                    <div class="modifier_mod"></div>
+                    <input class="modifier_score" placeholder="0" value="0" oninput="matchModToScore()">
+                </div>
+                <div class="modifier_arrow" onclick="switchMod('+')">&gt;</div>
+            </div>
+        </div>
+    </div>
+    <div class="add_book_button">add</div>
+</body>
+
+</html>

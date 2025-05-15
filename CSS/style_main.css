@@ -1,8 +1,8 @@
 * {
     margin: 0
 }
-a:focus, a:active {
-  outline: none;
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 body {
     background-image: linear-gradient(#000 80%, #040 95%, #070);

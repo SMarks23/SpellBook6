@@ -1,7 +1,9 @@
 * {
     margin: 0
 }
-
+a:focus, a:active {
+  outline: none;
+}
 body {
     background-image: linear-gradient(#000 80%, #040 95%, #070);
 }
